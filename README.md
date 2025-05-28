@@ -1,4 +1,3 @@
-```markdown
 # 🧠 Text Emotion Classification using NLP
 
 A comprehensive NLP project to classify human emotions from text (joy, sadness, anger, fear, neutral) using a combination of traditional machine learning, deep learning, and transformer-based models (BERT). The project includes full preprocessing pipelines, multiple model implementations, and performance comparisons.
@@ -6,10 +5,9 @@ A comprehensive NLP project to classify human emotions from text (joy, sadness, 
 ## 📂 Project Structure
 
 ```
-
 text-emotion-nlp/
 │
-├── finetuned_BERT.ipynb              # Notebook for fine-tuning BERT model
+├── finetuned BERT              # Notebook for fine-tuning BERT model
 ├── lstm.ipynb                  # Notebook for building LSTM/GRU models
 ├── traditional_ml.ipynb        # Notebook for traditional ML models (SVM, LR, NB, RF)
 ├── model.png                   # Architecture diagram (optional)
@@ -30,15 +28,14 @@ text-emotion-nlp/
 │   └── .gitignore
 │
 ├── models/                     # Saved models
-│   ├── tfidf\_svm.sav           # Serialized SVM model with TF-IDF
-│   └── emotion\_detector/       # Fine-tuned BERT saved model (TensorFlow format)
-│       ├── saved\_model.pb
-│       ├── keras\_metadata.pb
+│   ├── tfidf_svm.sav           # Serialized SVM model with TF-IDF
+│   └── emotion_detector/       # Fine-tuned BERT saved model (TensorFlow format)
+│       ├── saved_model.pb
+│       ├── keras_metadata.pb
 │       ├── fingerprint.pb
 │       ├── assets/
 │       └── variables/
-
-````
+```
 
 ## 📌 Overview
 
@@ -75,23 +72,27 @@ This project classifies user-generated texts into five emotional categories. It 
    ```bash
    git clone https://github.com/yourusername/text-emotion-nlp.git
    cd text-emotion-nlp
-````
+   ```
 
-2. (Optional) Set up virtual environment and install requirements
-
+2. (Optional) Set up virtual environment and install requirements  
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Open notebooks:
-
-   * `traditional_ml.ipynb` → train and test ML models
-   * `lstm.ipynb` → build and evaluate GRU/LSTM models
-   * `finetuned BERT.ipynb` → fine-tune BERT with HuggingFace and TensorFlow
+   - `traditional_ml.ipynb` → train and test ML models
+   - `lstm.ipynb` → build and evaluate GRU/LSTM models
+   - `finetuned BERT` → fine-tune BERT with HuggingFace and TensorFlow
 
 4. Test saved models from `/models/` folder on new messages.
 
 ## 👨‍💻 Authors
 
-* Trần Văn Tuấn Phong
+- Trần Văn Tuấn Phong  
+- Mai Nhật Minh  
+- Nguyễn Trịnh Tấn Đạt  
 *(Supervised by Đoàn Thị Hồng Phước – Hue University)*
+
+## 📄 License
+
+This project is for academic and educational use only.
