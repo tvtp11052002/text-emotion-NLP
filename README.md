@@ -89,10 +89,4 @@ This project classifies user-generated texts into five emotional categories. It 
 ## 👨‍💻 Authors
 
 - Trần Văn Tuấn Phong  
-- Mai Nhật Minh  
-- Nguyễn Trịnh Tấn Đạt  
 *(Supervised by Đoàn Thị Hồng Phước – Hue University)*
-
-## 📄 License
-
-This project is for academic and educational use only.
